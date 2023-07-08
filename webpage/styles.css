@@ -1,0 +1,139 @@
+*{margin: 0%; padding: 0%;box-sizing: border-box;}
+
+.header{
+background:  #eb9d9d;
+    padding: 20px;
+}
+.header img{
+    width: 15%;
+}
+.header p{
+    float: right;margin-right: 300px;font-size: 2.5vw;border: 1px solid black;border-radius: -10px 0px red;
+}
+.menu{
+    padding: 18px 0px ;background: wheat;
+}
+.menu a{
+    text-decoration: none; padding: 18px 40px;font-weight: bold;
+}
+.menu a:hover{
+    background: purple;color: aliceblue;
+}
+.slider img{
+    height: auto;width: 100%;
+}
+.row::after{
+    clear: both;display: table;content: "";
+}
+.left{
+   float: left;
+}
+.right{
+    /* background: #54b6f0; */
+    float: left;
+}
+.left ul{
+    margin-top: 10px;list-style: none;
+}
+.left li{ 
+    width: 90%;text-align: center;margin: 2px 5%;background: violet;padding: 17px 0px;
+}
+.left #cat{
+    background: #20f1cf;font-size: 2vw;color: black;
+}
+.left li:hover{
+    background: rgb(85, 28, 85);
+   
+}
+.left li a:hover{
+    color: aliceblue;font-size: 20px;
+}
+.phorijontalrow::after{content: ""; clear: both;display: table;}
+.phorijontalrow{margin-top: 15px;}
+.Product{
+    /* padding: 10px; */
+    float: left;
+    border: 1px solid black;
+}
+.Product img{height: auto;max-width: 100%;
+
+}
+.pdata{
+    padding: 10px;text-align: justify;line-height: 30px;
+}
+.pdata button{
+    background: #a239e9;color: aliceblue;padding: 10px;margin: 20px; border-radius: 10px;
+}
+.pdata button:hover{
+    background: #180202; font-family: cursive;color: #20f1cf;
+}
+.footer{
+    padding: 40px;text-align: center;background: #000;font-size: 3vw;color: #20f1cf;
+}
+.footer p{
+    padding: 1px;float: right;margin-top: 40px;color: aliceblue;
+}
+.header p:hover{
+    background: #0df0ca;color: #000;
+}
+.footer:hover{
+    padding: 60px;background: #ec0505;
+}
+
+
+
+
+
+
+
+
+
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+
+
+
+
+
+
+
+@media only screen and(max-width:1200px){
+    .Product{
+        width: 50%;text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:992px){
+    .menu a{
+        display: block;text-align: center;
+    }
+    /* @media screen and(max-width:992px) {
+        .header p{
+            display: block;text-align: center;
+        }
+    }
+  */
+}
+
+@media only screen and(max-width:768px) {
+    .left,.right{
+        width: 100%;
+    }
+    .Product{width: 100%;}
+    
+}

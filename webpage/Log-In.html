@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log_In</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./jquery ui/jquery-ui-1.10.4.custom.css">
+    <link rel="stylesheet" href="./jquery ui/jquery-ui-1.10.4.custom.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+
+            <img src="./images/car1.jpg" alt="">
+            <p>M.G.</p>
+        </div>
+        <div class="menu">
+            <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="about.html"><i class="fa-regular fa-ban"></i>About</a>
+            <a href="form.html"><i class="fa-solid fa-phone"></i>contact-us</a>
+            <a href="#"><i class="fa-solid fa-shop"></i>Shop</a>
+            <a href="Log-In.html"><i class="fa-solid fa-right-to-bracket"></i>Log-In</a>
+            <a href="Sign-Up.html"><i class="fa-solid fa-sign-hanging"></i>Sign-Up</a>
+            <a href="#"><i class="fa-brands fa-blogger-b"></i>Blog</a>
+        </div>
+
+
+
+
+
+
+
+
+        <center style="background: rgb(223, 191, 131);">
+            <table>
+                <form name="frm">
+                    <tr>
+                        <td><a href="Form Assignment2.html" style="text-decoration: none;font-size: 30px;">Create New Account</a>
+                        </td>
+                    </tr>
+                    <tr style="height: 70px;background: rgba(26, 105, 86, 0.185);width: 100px;">
+                        <th colspan="2">
+                            <Font color="blue">Register Form</Font>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font size="5px">Fisrt Name:</font><br><br>
+                        </td>
+                        <td>
+                            <input type="text" name="n" placeholder="please Enter your name"
+                                style="width: 100%;height: 30px;"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font size="5px">Last Name:</font><br><br>
+                        </td>
+                        <td><input type="text" name="Lname" placeholder="Enter your Last_Name"
+                                style="width: 100%;height: 30px;" <br><br></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font size="5px">Email:</font><sup style="color: red;">*</sup><br><br>
+                        </td>
+                        <td><input type="mail" name="m" placeholder="Enter your Mail" style="width: 100%;height: 30px;"
+                                <br><br></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font size="5px">Password:</font><br><br>
+                        </td>
+                        <td><input type="password" name="p" placeholder="Enter your password"
+                                style="width: 100%;height: 30px;"><br><br></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font size="5px">Address:</font>
+                        </td>
+                        <td><textarea name="Ad" id="" cols="25" rows="6"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font size="5px">Age:</font>
+                        </td>
+                        <td><input type="text" name="Age" id="U" style="width: 100%;height: 30px;" </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font size="5px">Gender:
+                        </td>
+                        <td><input type="radio" name="g" value="male">Male
+                            <input type="radio" name="g" value="Female" checked>Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button style="background-color: rgb(245, 238, 137);">
+                                <font size="5px">Submit</font>
+                            </button>
+                            <button style="background-color:  rgb(245, 238, 137);">
+                                <font size="5px" color="">Reset</font>
+                            </button>
+                        </td>
+                        <td style="margin: 2px 5px;"> <button style="background-color:  rgb(245, 238, 137);">
+                                <font size="5px" color="">Edit</font>
+                            </button>
+                            <button style="background-color:  rgb(245, 238, 137);">
+                                <font size="5px" color="">Delet</font>
+                            </button>
+                        </td>
+
+                    </tr>
+                </form>
+            </table>
+        </center>
+
+
+        <script src="./jquery ui/jquery-ui-1.10.4.custom.min.js"></script>
+        <script src="./jquery ui/jquery-ui-1.10.4.custom.js"></script>
+        <script src="./jquery ui/jquery-1.10.2.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $("#U").datepicker()
+            })
+        </script>
+    </div>
+    <div class="footer">
+        Copyright@2023 india.com
+        <p>Created By M.G.</p>
+    </div>
+</body>
+
+</html>
